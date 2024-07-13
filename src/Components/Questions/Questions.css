@@ -1,0 +1,40 @@
+.base-section{
+    width: 90%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.quiz-side-section{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    border: 2px solid green;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-around;
+}
+
+.question-section{
+    border: 2px solid red;
+}
+
+.question-no-section{
+    border: 2px solid blue;
+    width: 200px;
+    text-wrap: wrap;
+}
+
+.question-no{
+    font-size: 2em;
+    padding: 11px;
+    border-radius: 50%;
+    margin-left: 2px;
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+}
